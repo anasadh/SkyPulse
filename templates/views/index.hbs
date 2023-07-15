@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+   {{>headerlinks}}
+
+   <style>
+      body {
+        {{!-- background-image: url('/images/bg.jpg'); --}}
+        background-image: url("https://static.vecteezy.com/system/resources/previews/001/955/084/original/colorful-clouds-with-blue-sky-free-photo.jpg");
+        
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+   </style>
+   
+</head>
+<body>
+   
+    {{>navbar}}
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+
+                   <div class="wave -one"></div>
+      <div class="wave -two"></div>
+      <div class="wave -three"></div>
+
+
+                    <!-- left side div -->
+                    <div class="col-md-6 col-12 main_header_left">
+                        <p>Welcome to SkyPluse</p>
+                        <h1>Get the latest <span class="txt_clr">weather</span> info of your city !</h1>
+                        <a href="/weather"><button>Check Now</button></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    {{>footer}}
+
+</body>
+</html>
+
+

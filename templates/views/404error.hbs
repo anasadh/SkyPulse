@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+   {{>headerlinks}}
+</head>
+<body>
+    {{>navbar}}
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- left side div -->
+                    <div class="col-md-12 col-10 main_header_left align-items-center">
+                        <figure class="errimg">
+                         <img src="images/logo.png" alt="img missing" class="img-fluid" title="Anamika Sadh">
+                        </figure>
+                    
+                        <p>Weather App</p>
+                        {{!-- <h1>OPPS <span class="txt_clr">404</span> Error Page!!</h1> --}}
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button>Go back</button></a>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>        
+    </div>
+
+   {{>footer}}
+
+</body>
+</html>
